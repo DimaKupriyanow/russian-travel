@@ -1,9 +1,7 @@
 .header__lang-link_active {
-  position: absolute;
-  top: 46px;
-  right: 4vh;
   font-size: 24px;
   line-height: 28px;
   color: #FFFFFF;
   font-weight: 400;
+  margin-right: 18px;
 }
