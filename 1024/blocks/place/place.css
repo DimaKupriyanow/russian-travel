@@ -5,9 +5,10 @@
 
   margin-bottom: 80px;
   grid-template-areas:
-  "title website"
-  "image description";
+    "title website"
+    "image description";
 }
+
 .place:last-child {
   margin-bottom: 0;
 }
@@ -16,22 +17,23 @@
   .place {
     grid-gap: 48px 32px;
   }
-  }
+}
 
-  @media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .place {
     grid-gap: 48px 28px;
     margin-bottom: 73px;
   }
-  }
-  @media screen and (max-width: 767px) {
-    .place {
-      margin-bottom: 50px;
-      gap: 32px 0;
-      grid-template-areas:
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    margin-bottom: 50px;
+    gap: 32px 0;
+    grid-template-areas:
       "title"
       "website"
       "image"
       "description";
-    }
   }
+}
