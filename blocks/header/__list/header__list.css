@@ -1,0 +1,12 @@
+.header__list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 18px;
+}
+/* .header__list:first-child {
+  text-decoration: none;
+  margin-right: 0;
+
+} */
