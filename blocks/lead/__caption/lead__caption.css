@@ -2,8 +2,10 @@
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
   margin: 8px 0 0;
-  max-width: 158px;
+  width: max-content;
 }
 
 @media screen and (max-width: 1023px) {
